@@ -95,3 +95,48 @@
         </div>
         </div>
     </div>
+    <!-- email -->
+    <div class=" bg-green-800 h-[500px] flex flex-col justify-center items-center">
+        <p class="p-10 text-white font-bold text-2xl">Plant a Tree Today</p>
+        <div class="lg:w-[700px] lg:h-[300px] bg-green-700 rounded-lg flex flex-col justify-center items-center">
+            <!-- inside -->
+             <div class="lg:w-[500px] h-[50px] bg-white rounded justify-start items-center flex m-2">
+                <input type="text" id="name" placeholder="Your name" class="p-5 outline-none border-0 w-120 h-12 lg:w-[500px] lg:h-[50px]">
+             </div>
+
+              <div class="w-120 h-12 lg:w-[500px] lg:h-[50px] bg-white rounded justify-start items-center flex m-2">
+                <input type="email" id="email" placeholder="Your Email Address" class="p-5 outline-none border-0 w-[500px] h-[50px]">
+             </div>
+
+            <select class="select w-120 h-12 lg:w-[500px] lg:h-[50px] m-2">
+  <option disabled selected>Number of Trees</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>5</option>
+  <option>10</option>
+  <option>20</option>
+</select>
+
+             <button class="rounded-full bg-yellow-400 h-12 w-120 lg:h-[50px] lg:w-[500px] flex justify-center items-center m-2 hover:bg-yellow-500">Donate Now</button>
+
+        </div>
+    </div>
+<div class="h-10 bg-green-900 text-white text-center items-center justify-center flex">© 2025 Green Earth. All Rights Reserved.</div>
+
+<input type="checkbox" id="tree_modal" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg" id="modalTitle"></h3>
+    <p class="py-4" id="modalBody"></p>
+    <div class="modal-action">
+      <label for="tree_modal" class="btn">Close</label>
+    </div>
+  </div>
+</div>
+
+    
+    <!-- js -->
+<script src="script.js"></script>
+</body>
+</html>
